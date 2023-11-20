@@ -1,0 +1,46 @@
+
+zadanie 1
+1. **Strict DTD:**
+   ```html
+   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+   ```
+
+2. **Transitional DTD:**
+   ```html
+   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+   ```
+
+3. **Frameset DTD:**
+   ```html
+   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+   ```
+
+Różnice między nimi:
+
+- **Strict DTD:** Ta wersja jest najbardziej rygorystyczna. Zaleca się używanie pełnych zaleceń HTML i unikanie elementów, które zostały zdeprecjonowane w późniejszych wersjach HTML.
+
+- **Transitional DTD:** To bardziej elastyczna wersja, która pozwala na używanie elementów zdeprecjonowanych oraz wprowadza nowe elementy. Jest przeznaczona dla dokumentów, które nadal używają starszych struktur, ale z perspektywą aktualizacji.
+
+- **Frameset DTD:** Ta wersja jest przeznaczona dla dokumentów zawierających ramki (frames). Elementy związane z ramkami są dozwolone w tej wersji.
+
+zadanie 2
+1 <html lang="pl">
+2 </head>
+3 </body>
+ 
+
+
+zadanie 3. 
+1. html
+2. Przykład do zadania
+3. utf 8
+
+
+
+TEST
+1.C
+2.C
+3D
+4A
+5A
+
