@@ -1,0 +1,12 @@
+<ol> (ordered list) dla listy uporządkowanej
+<ul>(unordered list) dla listy nieuporządkowanej 
+<li> (list item), które reprezentują poszczególne elementy listy
+<span> do grupowania lub stylizacji fragmentów tekstu lub elementów, bez wpływu na strukturę dokumentu
+
+
+TEST NA KOŃCU
+1A
+2C
+3B
+4D
+5B
