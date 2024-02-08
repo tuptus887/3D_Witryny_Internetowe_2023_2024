@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularz Maturalny</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    select, input, textarea {
+      width: calc(100% - 16px);
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"], input[type="reset"] {
+      background-color: #007bff;
+      border: none;
+      color: white;
+      padding: 10px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="mailto:dyrekcja@szkola.pl" method="post" enctype="text/plain">
+    <table>
+      <tr>
+        <td>Imię i nazwisko:</td>
+        <td><input type="text" name="name" required></td>
+      </tr>
+      <tr>
+        <td>Numer klasy:</td>
+        <td>
+          <select name="class" required>
+            <option value="A">A</option>
+            <option value="B">B</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Przedmioty maturalne:</td>
+        <td>
+          <select name="subjects[]" multiple required>
+            <option value="matematyka">Matematyka</option>
+            <option value="polski">Język Polski</option>
+            <option value="geografia">Geografia</option>
+            <option value="fizyka">Fizyka</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Poziom arkusza:</td>
+        <td>
+          <select name="level" required>
+            <option value="podstawowy">Podstawowy</option>
+            <option value="rozszerzony">Rozszerzony</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Płeć:</td>
+        <td>
+          <input type="radio" name="gender" value="male"> Mężczyzna
+          <input type="radio" name="gender" value="female"> Kobieta
+        </td>
+      </tr>
+      <tr>
+        <td>Uwagi:</td>
+        <td><textarea name="comments" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="submit" value="Wyślij">
+          <input type="reset" value="Wyczyść">
+        </td>
+      </tr>
+    </table>
+  </form>
+
+</body>
+</html>
