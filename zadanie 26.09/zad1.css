@@ -1,0 +1,21 @@
+ul {
+    list-style-type: none;
+    display: flex;
+}
+li {
+    margin-right: 20px;
+}
+ 
+a:visited {
+    color:rgb(152, 33, 189)
+}
+ 
+ul {
+    background-color: #e20b0b;
+}
+li a {
+    color: #11fd74
+}
+li a:hover {
+    background-color: #e606c8;
+}
